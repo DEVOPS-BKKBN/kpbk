@@ -10,6 +10,8 @@ use Carbon\Carbon;
 use Laravolt\Indonesia\Models\Province;
 use Laravolt\Indonesia\Models\City;
 use App\Http\Requests\TransaksiRequest;
+use Illuminate\Http\Request;
+
 
 
 class TransaksiController extends Controller
