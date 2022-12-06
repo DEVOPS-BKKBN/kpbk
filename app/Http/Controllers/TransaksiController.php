@@ -10,6 +10,8 @@ use Carbon\Carbon;
 use Laravolt\Indonesia\Models\Province;
 use Laravolt\Indonesia\Models\City;
 use App\Http\Requests\TransaksiRequest;
+use Illuminate\Http\Request;
+
 
 
 class TransaksiController extends Controller
@@ -29,11 +31,11 @@ class TransaksiController extends Controller
         if($role ==1 ) {
 
 
-        return view('Transaksi.index', ['transaksis' => $model->with(['kebijakans', 'kategoris','getprovs','getcities'])->get()]);
+        return view('transaksi.index', ['transaksis' => $model->with(['kebijakans', 'kategoris','getprovs','getcities'])->get()]);
         } else {
             $idprov = auth()->user()->prov_id;
             $transprov = Transaksi::where('id_prov', $idprov);
-            return view('Transaksi.index', ['transaksis' => $transprov->with(['kebijakans', 'kategoris','getprovs','getcities'])->get()]);
+            return view('transaksi.index', ['transaksis' => $transprov->with(['kebijakans', 'kategoris','getprovs','getcities'])->get()]);
         }
     }
 
