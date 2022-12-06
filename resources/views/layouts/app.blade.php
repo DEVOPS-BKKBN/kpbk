@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        @if (env('IS_DEMO'))
+        {{-- @if (env('IS_DEMO'))
                 <!-- Anti-flicker snippet (recommended)  -->
         <style>.async-hide { opacity: 0 !important} </style>
         <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
@@ -11,7 +11,7 @@
         {'GTM-K9BGS8K':true});</script>
 
         <!-- Analytics-Optimize Snippet -->
-        <script>
+       <!--  <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -22,7 +22,7 @@
         ga('require', 'displayfeatures');
         ga('require', 'linker');
         ga('linker:autoLink', ["2checkout.com","avangate.com"]);
-        </script>
+        </script> -->
         <!-- end Analytics-Optimize Snippet -->
 
         <!-- Google Tag Manager -->
@@ -32,7 +32,7 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
         <!-- End Google Tag Manager -->
-        @endif
+        @endif --}}
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@
         @if (env('IS_DEMO'))
 
         <!-- Canonical SEO -->
-        <link rel="canonical" href="https://www.creative-tim.com/product/argon-dashboard-pro-laravel" />
+        {{-- <link rel="canonical" href="https://www.creative-tim.com/product/argon-dashboard-pro-laravel" /> --}}
 
         <!--  Social tags      -->
         <meta name="keywords" content="creative tim, updivision, html dashboard, html css dashboard, web dashboard, bootstrap 4 dashboard, laravel dashboard, bootstrap 4, laravel, css3 dashboard, bootstrap 4 admin, argon laravel dashboard, bootstrap 4 dashboard, frontend, responsive bootstrap 4 dashboard, argon laravel design, argon laravel dashboard bootstrap">

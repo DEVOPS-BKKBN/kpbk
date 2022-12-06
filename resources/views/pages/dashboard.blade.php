@@ -24,7 +24,7 @@
                         <div class="row align-items-center">
                             <div class="col">
                                 <h6 class="text-light text-uppercase ls-1 mb-1">Overview</h6>
-                                <h5 class="h3 text-white mb-0">Jumlah Posting</h5>
+                                <h5 class="h3 text-white mb-0">Jumlah Posting Dokumen</h5>
                             </div>
                             <div class="col">
                                 <ul class="nav nav-pills justify-content-end">
@@ -60,8 +60,8 @@
                     <div class="card-header bg-transparent">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
-                                <h5 class="h3 mb-0">Total Activity</h5>
+                                <h6 class="text-uppercase text-muted ls-1 mb-1">Akltivitas</h6>
+                                <h5 class="h3 mb-0">Total Aktivitas</h5>
                             </div>
                         </div>
                     </div>

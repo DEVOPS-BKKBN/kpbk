@@ -122,7 +122,7 @@
 
 
                                 <div class="form-group{{ $errors->has('category_id') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-role">{{ __('Kategori') }}</label>
+                                    <label class="form-control-label" for="input-role">{{ __('Jenis kebijakan') }}</label>
                                     <select name="id_kategori" id="input-role" class="form-control{{ $errors->has('id_kategori') ? ' is-invalid' : '' }} text-uppercase" placeholder="{{ __('Kategori') }}" required>
                                         <option value="">-</option>
                                         @foreach ($kategoris as $kategori)
@@ -134,7 +134,7 @@
                                 </div>
                                 
                                <div class="form-group{{ $errors->has('id_kebijakan') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-role">{{ __('Kebijakan') }}</label>
+                                    <label class="form-control-label" for="input-role">{{ __('Bidang Kebijakan') }}</label>
                                     <select name="id_kebijakan" id="input-role" class="form-control{{ $errors->has('id_kkebijakan') ? ' is-invalid' : '' }} text-uppercase" placeholder="{{ __('Kebijakan') }}" required>
                                         <option value="">-</option>
                                         @foreach ($kebijakans as $kebijakan)
@@ -148,12 +148,13 @@
                                 <div class="form-group{{ $errors->has('file') ? ' has-danger' : '' }}">
                                     <label class="form-control-label" for="input-file">{{ __('Picture') }}</label>
                                     <div class="custom-file">
-                                        <input type="file" name="dokumen" class="custom-file-input{{ $errors->has('file') ? ' is-invalid' : '' }}" id="input-file" accept="application/pdf" required>
+                                        <input type="file" name="dokumen" class="custom-file-input{{ $errors->has('file') ? ' is-invalid' : '' }}" id="input-file" accept="application/pdf">
                                         <label class="custom-file-label" for="input-file">{{ __('Select File') }}</label>
                                     </div>
 
                                     @include('alerts.feedback', ['field' => 'file'])
                                 </div>
+
                                <input type="hidden" name="created_by" value="{{ Auth::user()->id }}">                         
                                 <!-- 
                                     <div class="row">

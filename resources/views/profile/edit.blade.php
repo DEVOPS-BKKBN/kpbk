@@ -33,24 +33,7 @@
                         </div>
                     </div>
                     <div class="card-body pt-0">
-                        <div class="row">
-                            <div class="col">
-                                <div class="card-profile-stats d-flex justify-content-center">
-                                    <div>
-                                        <span class="heading">22</span>
-                                        <span class="description">Friends</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">10</span>
-                                        <span class="description">Photos</span>
-                                    </div>
-                                    <div>
-                                        <span class="heading">89</span>
-                                        <span class="description">Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="text-center">
                             <h5 class="h3">
                                 {{ auth()->user()->name }}<span class="font-weight-light">, 27</span>
@@ -68,147 +51,10 @@
                     </div>
                 </div>
                 <!-- Progress track -->
-                <div class="card">
-                    <!-- Card header -->
-                    <div class="card-header">
-                        <!-- Title -->
-                        <h5 class="h3 mb-0">Progress track</h5>
-                    </div>
-                    <!-- Card body -->
-                    <div class="card-body">
-                        <!-- List group -->
-                        <ul class="list-group list-group-flush list my--3">
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <!-- Avatar -->
-                                        <a href="#" class="avatar rounded-circle">
-                                            <img alt="Image placeholder" src="{{ asset('argon') }}/img/theme/bootstrap.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <h5>Argon Design System</h5>
-                                        <div class="progress progress-xs mb-0">
-                                            <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <!-- Avatar -->
-                                        <a href="#" class="avatar rounded-circle">
-                                            <img alt="Image placeholder" src="{{ asset('argon') }}/img/theme/angular.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <h5>Angular Now UI Kit PRO</h5>
-                                        <div class="progress progress-xs mb-0">
-                                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <!-- Avatar -->
-                                        <a href="#" class="avatar rounded-circle">
-                                            <img alt="Image placeholder" src="{{ asset('argon') }}/img/theme/sketch.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <h5>Black Dashboard</h5>
-                                        <div class="progress progress-xs mb-0">
-                                            <div class="progress-bar bg-red" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <!-- Avatar -->
-                                        <a href="#" class="avatar rounded-circle">
-                                            <img alt="Image placeholder" src="{{ asset('argon') }}/img/theme/react.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <h5>React Material Dashboard</h5>
-                                        <div class="progress progress-xs mb-0">
-                                            <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item px-0">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <!-- Avatar -->
-                                        <a href="#" class="avatar rounded-circle">
-                                            <img alt="Image placeholder" src="{{ asset('argon') }}/img/theme/vue.jpg">
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <h5>Vue Paper UI Kit PRO</h5>
-                                        <div class="progress progress-xs mb-0">
-                                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
             <div class="col-xl-8 order-xl-1">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card bg-gradient-info border-0">
-                            <!-- Card body -->
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <h5 class="card-title text-uppercase text-muted mb-0 text-white">Total traffic</h5>
-                                        <span class="h2 font-weight-bold mb-0 text-white">350,897</span>
-                                    </div>
-                                    <div class="col-auto">
-                                        <div class="icon icon-shape bg-white text-dark rounded-circle shadow">
-                                            <i class="ni ni-active-40"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="mt-3 mb-0 text-sm">
-                                    <span class="text-white mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                                    <span class="text-nowrap text-light">Since last month</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card bg-gradient-danger border-0">
-                            <!-- Card body -->
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <h5 class="card-title text-uppercase text-muted mb-0 text-white">Performance</h5>
-                                        <span class="h2 font-weight-bold mb-0 text-white">49,65%</span>
-                                    </div>
-                                    <div class="col-auto">
-                                        <div class="icon icon-shape bg-white text-dark rounded-circle shadow">
-                                            <i class="ni ni-spaceship"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <p class="mt-3 mb-0 text-sm">
-                                    <span class="text-white mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                                    <span class="text-nowrap text-light">Since last month</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="card">
                     <div class="card-header">
                         <div class="row align-items-center">

@@ -8,10 +8,10 @@
     @component('layouts.headers.auth')
         @component('layouts.headers.breadcrumbs')
             @slot('title')
-                {{ __('Examples') }}
+                {{ __('IKK') }}
             @endslot
 
-            <li class="breadcrumb-item"><a href="{{ route('item.index') }}">{{ __('Transaksi Management') }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ route('item.index') }}">{{ __('Kebijakan Pembangunan Berwawasan Kependudukan') }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ __('List') }}</li>
         @endcomponent
     @endcomponent
@@ -23,14 +23,14 @@
                     <div class="card-header">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h3 class="mb-0">{{ __('Transaksi') }}</h3>
+                                <h3 class="mb-0">{{ __('List Data') }}</h3>
                                 <p class="text-sm mb-0">
-                                    {{ __('This is an example of item management. This is a minimal setup in order to get started fast.') }}
+                                    {{ __('List Data Kebijakan Pembangunan Berwawasan Kependudukan') }}
                                 </p>
                             </div>
                             @if (auth()->user()->can('create', App\Item::class))
                                 <div class="col-4 text-right">
-                                    <a href="{{ route('transaksi.create') }}" class="btn btn-sm btn-primary">{{ __('Add Transaksi') }}</a>
+                                    <a href="{{ route('transaksi.create') }}" class="btn btn-sm btn-primary">{{ __('Add Data') }}</a>
                                 </div>
                             @endif
                         </div>
@@ -53,6 +53,8 @@
                                     <th scope="col">{{ __('KAB/KOTA') }}</th>
                                     <th scope="col">{{ __('FILE') }}</th>
                                     <th scope="col">{{ __('Creation Date') }}</th>
+                                    <th scope="col">{{ __('ACTION') }}</th>
+                                    
                                    
                                    
                                 </tr>
@@ -77,6 +79,15 @@
                                         </td>
                                         <td><a href="{{$trans->file}}" target="_blank">Download</td>
                                         <td>{{ $trans->created_at->format('d/m/Y H:i') }}</td>
+                                        <td class="text-right">
+                                            <button data-toggle="tooltip" data-placement="bottom" title="Delete Data" class="btn btn-icon btn-danger btn-sm" type="button">
+                                                <span class="btn-inner--icon"><i class="ni ni-fat-remove"></i></span>
+                                            </button>
+                                            <button data-toggle="tooltip" data-placement="bottom" title="Edit Data"class="btn btn-icon btn-success btn-sm" type="button" data-toggle="Edit">
+                                                    <span class="btn-inner--icon"><i class="ni ni-tag"></i></span>
+                                            </button>
+                                        </td>
+                                        
                                        
                                     </tr>
                                     @php 

@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col">
                         <h5 class="card-title text-uppercase text-muted mb-0">Total Dokumen</h5>
-                        <span class="h2 font-weight-bold mb-0">120</span> Dokumen
+                        <span class="h2 font-weight-bold mb-0">5</span> Dokumen
                     </div>
                 <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <p class="mt-3 mb-0 text-sm">
-                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 0%</span>
                 <span class="text-nowrap">Since last month</span>
             </p>
         </div>
@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col">
                     <h5 class="card-title text-uppercase text-muted mb-0">Total User</h5>
-                    <span class="h2 font-weight-bold mb-0">43</span> User
+                    <span class="h2 font-weight-bold mb-0">35</span> User
                 </div>
                 <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <p class="mt-3 mb-0 text-sm">
-                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 0%</span>
                 <span class="text-nowrap">Since last month</span>
             </p>
         </div>
@@ -49,8 +49,8 @@
         <div class="card-body">
             <div class="row">
                 <div class="col">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Total Kategori</h5>
-                    <span class="h2 font-weight-bold mb-0">12</span> Kategori
+                    <h5 class="card-title text-uppercase text-muted mb-0">Jenis Kebijakan</h5>
+                    <span class="h2 font-weight-bold mb-0">12</span> Jenis 
                 </div>
                 <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <p class="mt-3 mb-0 text-sm">
-                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 0%</span>
                 <span class="text-nowrap">Since last month</span>
             </p>
         </div>
@@ -71,8 +71,8 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col">
-                        <h5 class="card-title text-uppercase text-muted mb-0">Total Kebijakan</h5>
-                        <span class="h2 font-weight-bold mb-0">9</span> Kebijakan
+                        <h5 class="card-title text-uppercase text-muted mb-0">Bidang Kebijakan</h5>
+                        <span class="h2 font-weight-bold mb-0">9</span> Bidang
                     </div>
                 <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
@@ -81,7 +81,7 @@
                 </div>
                 </div>
                 <p class="mt-3 mb-0 text-sm">
-                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
+                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 0%</span>
                     <span class="text-nowrap">Since last month</span>
                 </p>
             </div>
